@@ -7,6 +7,8 @@ I used Docker with a multi-stage build based on Amazon Corretto 25 (Alpine runti
 
 * **Docker Hub:** https://hub.docker.com/r/ayushman027/health-record-service
 
+* **API:** http://localhost:8080/api/v1/meaningful-use/hospitals
+
 ### How to Run
 ```bash
 docker run -d -p 8080:8080 --name health-record-service ayushman027/health-record-service:latest
